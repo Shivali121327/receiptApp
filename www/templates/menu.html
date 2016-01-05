@@ -9,8 +9,9 @@
         </button>
       </ion-nav-buttons>
       <ion-nav-buttons side="right">
-        <button class="button button-icon button-clear ion-plus-circled">
-        </button>
+        <a href="#/app/create">
+          <button class="button button-icon button-clear ion-plus-circled"></button>
+        </a>
       </ion-nav-buttons>
     </ion-nav-bar>
     <ion-nav-view name="menuContent"></ion-nav-view>
@@ -23,9 +24,11 @@
     <ion-content>
       <ion-list> 
         <ion-item menu-close href="#/app/create">
+          <i class="ion-plus-circled"></i>
           Create
         </ion-item>
         <ion-item menu-close href="#/app/myReceipts">
+        <i class="ion-android-list"></i>
           My Receipts
         </ion-item>
         <ion-item menu-close href="#/app/display">
